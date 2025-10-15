@@ -1,0 +1,15 @@
+name: CI Pipeline Sederhana
+
+on:
+  push:
+    branches: [ "main" ]  # Jalan otomatis setiap kali kamu push ke main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout kode dari GitHub
+        uses: actions/checkout@v3
+
+      - name: Jalankan kode JavaScript
+        run: node app.js
