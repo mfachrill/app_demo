@@ -1,5 +1,5 @@
-function buatNota(nama, total) {
+function data(nama, total) {
   return `Nota untuk ${nama}, total: Rp${total}`;
 }
 
-console.log("muchriel", 15000));
+console.log((data)"muchriel", 15000));
